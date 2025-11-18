@@ -77,7 +77,7 @@ const Navbar = () => {
             {/* Z-[60] sits on top of navbar. bg-black/95 ensures visibility. */}
             <div
                 ref={menuRef}
-                className="fixed inset-0 z-[60] bg-black/95 backdrop-blur-xl flex flex-col items-center justify-center md:hidden text-white opacity-0 invisible"
+                className="fixed inset-0 z-[60] bg-black/70 backdrop-blur-xl flex flex-col items-center justify-center md:hidden text-white opacity-0 invisible"
             >
                 {/* Close Button INSIDE Overlay */}
                 <button
