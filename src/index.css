@@ -7,11 +7,18 @@
 /* 3. Define your Theme */
 @theme {
     /* --- Colors --- */
-    /* Based on the ZYRA Electric Blue design */
-    --color-brand-blue: #0544DA;
-    --color-brand-light: #4479F4;
-    --color-brand-dark: #002280;
-    --color-surface: #F5F5F5;
+    --color-brand-blue: #1f4572;      /* Yale Blue (Primary) */
+    --color-brand-blue-light: #1f6cc6; /* Sapphire Sky (Hover/Accent) */
+    --color-brand-blue-ice: #8fb5e0;  /* Baby Blue Ice (Subtle backgrounds) */
+
+    --color-brand-gold: #c3a33c;      /* Golden Bronze (Primary Accent) */
+    --color-brand-gold-light: #e1d09b; /* Vanilla Custard (Secondary Accent) */
+
+    --color-brand-dark: #0e1b2a;      /* Carbon Black (Rich Dark) */
+    --color-brand-gray: #7c7e7c;      /* Grey (Text/Borders) */
+
+    --color-surface: #fefdfa;         /* Porcelain (Main Light Background) */
+    --color-surface-alt: #f0e7cb;     /* Vanilla Cream (Alternative Light Background) */
     --color-accent-red: #FF0000;
 
     /* --- Fonts --- */
@@ -40,3 +47,20 @@
     -webkit-text-stroke: 2px rgba(255, 255, 255, 0.2);
     color: transparent;
 }
+
+/* Add to index.css */
+.perspective-1000 {
+    perspective: 1000px;
+}
+
+.transform-style-3d {
+    transform-style: preserve-3d;
+}
+
+.backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* For Safari */
+}
+
+/* We don't need a .rotate-y-180 class because we used inline styles in the JS,
+   but it's good practice to keep 3D helpers here. */

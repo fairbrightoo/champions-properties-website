@@ -103,7 +103,7 @@ const Hero = () => {
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 -translate-y-12 md:translate-y-0">
                 <div className="relative w-full px-4 flex justify-center">
                     <div ref={subtextLeftRef} className="absolute -top-8 md:-top-14 left-[10%] opacity-0">
-                        <p className="text-sm md:text-3xl lg:text-5xl font-body font-black tracking-widest text-surface/60 uppercase">
+                        <p className="text-sm md:text-3xl lg:text-5xl font-body font-black tracking-widest text-surface/60 ">
                             Experience the
                         </p>
                     </div>
@@ -115,7 +115,7 @@ const Hero = () => {
                     </div>
 
                     <div ref={subtextRightRef} className="absolute -bottom-6 md:-bottom-10 right-[5%] opacity-0">
-                        <p className="text-sm md:text-3xl lg:text-5xl font-body font-black tracking-widest text-surface/60 uppercase">
+                        <p className="text-sm md:text-3xl lg:text-5xl font-body font-black tracking-widest text-surface/60 ">
                             Lifestyle!
                         </p>
                     </div>
